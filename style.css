@@ -15,7 +15,7 @@ body {
   height: auto;
   display: block;
   position: relative;
-  overflow:visible;
+  overflow: visible;
   z-index: 0;
 }
 
@@ -40,6 +40,12 @@ body::after {
 
 .containerSmall {
   max-width: 443px;
+}
+
+.growBig {
+  height: 90vh;
+  width: 90vw;
+  overflow: visible;
 }
 
 .headingMain {
@@ -206,7 +212,6 @@ Page structure */
 
 /* Very light scaling for our illustration */
 .title {
-  
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -242,7 +247,6 @@ input {
 
 /* Subheading */
 h2 {
- 
 }
 
 /* Interactive image */
