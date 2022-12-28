@@ -9,21 +9,22 @@ body {
   height: 100vh; /* You must set a specified height 
   background-position: center; /* Center the image 
   background-repeat: no-repeat; /* Do not repeat the image 
-  background-size: 100% 100%; /* Resize the background image to cover the entire container */
+  background-size: 100% 100%; /* Resize the background image to cover the entire container 
 
   width: 100%;
   height: auto;
   display: block;
   position: relative;
-  overflow:visible;
+  overflow: visible;
   z-index: 0;
 }
 
 body::after {
-  background: url(https://scontent.fcxh2-1.fna.fbcdn.net/v/t39.30808-6/318201052_10167048345980301_2080698464962424207_n.jpg?stp=dst-jpg_p180x540&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=S7ommhDGSvkAX9vNGUe&_nc_ht=scontent.fcxh2-1.fna&oh=00_AfC-9RUMUHkGTsLgVu9-NG1mnv5tbDEbXY3WYu_EivWkrg&oe=63A7C057)
-      no-repeat fixed center,
-    url(https://asset.cloudinary.com/pollie/148d948ede01b8cbe6ec23496cff66ad);
+  background: url(https://res.cloudinary.com/pollie/image/upload/v1672192690/Logo_zpv0kl.png)
+      no-repeat fixed center;
+    
   content: "";
+  height:100vh;
   opacity: 0.1;
   position: absolute;
   top: 0;
@@ -32,7 +33,9 @@ body::after {
   left: 0;
   z-index: -1;
 }
-
+*/
+  
+  
 .containerBig {
   max-width: 773px;
   width: 100%;
@@ -40,6 +43,12 @@ body::after {
 
 .containerSmall {
   max-width: 443px;
+}
+
+.growBig {
+  height: 90vh;
+  width: 90vw;
+  overflow: visible;
 }
 
 .headingMain {
@@ -206,7 +215,6 @@ Page structure */
 
 /* Very light scaling for our illustration */
 .title {
-  
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -242,7 +250,6 @@ input {
 
 /* Subheading */
 h2 {
- 
 }
 
 /* Interactive image */
