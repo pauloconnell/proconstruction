@@ -34,7 +34,7 @@ body::after {
   z-index: -1;
 }
 */
-  
+}
   
 .containerBig {
   max-width: 773px;
@@ -52,7 +52,7 @@ body::after {
 }
 
 .headingMain {
-  font-family: Montserrat;
+  font-variant: small-caps;
   font-stretch: extra-expanded;
   font-weight: 700;
   font-style: normal;
