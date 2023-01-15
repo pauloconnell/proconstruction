@@ -20,11 +20,33 @@ if (btn) {
   };
 }
 
-// This is a single line JS comment
-/*
-This is a comment that can span multiple lines 
-- use comments to make your own notes!
-*/
+var link = document.getElementById("getQuote");
+link.onclick = function () {
+  this.href =
+    "mailto:mrconstruction101@outlook.com?subject=M.R.%20Pro%20Construction%20quote%20request&body=";
+  this.href += "******************************************************%0A%0A";
+  this.href +=
+    "Please%20just%20hit%20send%20to%20complete%20this%20request.%20We%20will%20contact%20you%20soon.%0A%0A";
+  this.href += "******************************************************%0A%0A";
+  this.href += "%0A%0A";
+  this.href += "%0A%0A";
+  this.href += "%0A%0A";
+  this.href += "***************-Message%20BODY-***********************%0A%0A";
+  this.href += "Request%20from:%20" + document.getElementById("fname").value;
+  this.href += document.getElementById("lname").value;
+  this.href += "%0A%0A" + "phone#:%20" + document.getElementById("tel").value;
+  this.href += "%0A%0A" + "city:%20" + document.getElementById("city").value;
+  this.href +=
+    "%0A%0A" + "street:%20" + document.getElementById("street").value;
+  this.href +=
+    "%0A%0A" + "type:%20" + document.getElementById("renoType").value;
+  this.href +=
+    "%0A%0A" +
+    "description:%20" +
+    document.getElementById("jobRequest").value +
+    "%0A%0A";
+  this.href += "******************************************************%0A%0A";
+};
 
 let classes = ["growBig", "col-sm-4"];
 
