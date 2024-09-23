@@ -36,6 +36,10 @@ body::after {
 */
 }
   
+.backgroundWhite {
+  background: white;
+}
+
 .containerBig {
   max-width: 773px;
   width: 100%;
@@ -43,6 +47,10 @@ body::after {
 
 .containerSmall {
   max-width: 443px;
+}
+
+.carousel img{
+   object-fit: contain;
 }
 
 .growBig {
