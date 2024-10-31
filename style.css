@@ -39,6 +39,13 @@ body::after {
 .backgroundWhite {
   background: white;
 }
+.backgroundDark {
+  background: rgba(0,0,0,.8);
+}
+
+.backgroundYellow {
+  background-color: rgba(255, 255, 0, 0.8);
+}
 
 .containerBig {
   max-width: 773px;
@@ -65,7 +72,16 @@ body::after {
   font-weight: 700;
   font-style: normal;
   color: Black;
-  font-size: 40px;
+  font-size: xxl;
+  text-shadow: 0px 0px 6px red;
+}
+
+.h1 {
+   font-variant: small-caps;
+  font-stretch: extra-expanded;
+  font-weight: 700;
+    font-size: xxl;
+  color: yellow;
 }
 
 .inputBox {
@@ -76,6 +92,22 @@ body::after {
 
 .objectFit {
   object-fit:contain;
+}
+
+.shadowRed {
+  text-shadow: 0px 0px 6px red;
+}
+
+.shadowWhite {
+  text-shadow: 0px 0px 3px white;
+}
+
+.textWhite {
+  color: white;
+}
+
+.textYellow {
+  color: yellow;
 }
 
 #lp-pom-form-169 .lp-pom-form-field .text {
