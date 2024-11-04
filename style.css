@@ -36,6 +36,12 @@ body::after {
 */
 }
 
+
+label {
+  color: white;
+  margin-top: 15px;
+}
+
 .backgroundWhite {
   background: white;
 }
