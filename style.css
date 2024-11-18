@@ -36,10 +36,17 @@ body::after {
 */
 }
 
+input {
+  text-align: center;
+}
 
 label {
   color: white;
   margin-top: 15px;
+}
+
+textarea {
+  text-align: center;
 }
 
 .backgroundWhite {
