@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
-
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "McLaren & Rouse Pro Construction",
+        "description": "M & R Pro Construction offers top-notch construction services, including residential and commercial projects. Contact us for quality craftsmanship and reliable service. Proudly serving Belleville, Napanee, and Kingston.",
+        "url": "https://mrproconstruction.glitch.me/",
+        "telephone": "604 966-8069", // Or the correct number
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Belleville",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "44.1628",
+          "longitude": "-77.383331"
+        },
+        "image": "https://cdn.glitch.global/15325860-6aea-4652-948c-5ed667ca1994/MRPro.jpg?v=1730499953593",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+          // Add more OpeningHoursSpecification for weekends if needed
+        ],
+        "sameAs": [
+          "https://www.facebook.com/McLarenRouseProConstruction"
+          // Add other social media profiles if available (e.g., LinkedIn, Instagram)
+        ],
+        "serviceArea": {
+          "@type": "AdministrativeArea", // Or "GeoShape" if you have a more complex shape
+          "name": "Prince Edward County, Picton, Belleville, Trenton, Napanee, Kingston" 
+        }
+      }
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
